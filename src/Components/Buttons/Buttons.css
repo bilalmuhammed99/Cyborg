@@ -1,0 +1,21 @@
+.main-border-button a {
+    font-size: 14px;
+    color: var(--color-primary);
+    background-color: transparent;
+    border: 2px solid var(--color-primary);
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .main-border-button a:hover {
+    border-color: var(--color-primary);
+    background-color: var(--color-light);
+    color: var(--color-primary);
+  }

@@ -1,0 +1,25 @@
+.hero-main{
+    background: url("../../Assets/Images/gaming-background.jpg" ) no-repeat top right/cover;
+    background-position: center top;
+    background-size: cover;
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    padding: var(--padding-primary);
+    border-radius: var(--border-radius-primary);
+}
+.hero-text{
+    max-width: 500px;
+    font-weight: var(--font-wight-normal);
+}
+.hero-title em { 
+    color:var(--color-primary);
+    font-style: normal;
+    font-weight: var(--font-wight-bold);
+
+}
+.hero-title{
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: calc( var( --margin-primary)/2);
+    font-weight: var(--font-wight-bold);
+}

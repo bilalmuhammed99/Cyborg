@@ -1,0 +1,15 @@
+.game-Librar-Card {
+    flex: 1 1 100%;
+    justify-content: space-between;
+    
+}
+
+
+.game-Librar-Card ul{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px beige;
+    padding: calc(var(--padding-primary)/2)0;
+    flex-wrap: wrap;
+    gap: 15px 10px;
+}
