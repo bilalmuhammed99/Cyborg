@@ -5,7 +5,7 @@ import React from 'react'
 
 const GameLibrarCard = (props) => {
   return (
-    <div className="game-Librar-Card"  >
+    <div className="game-Librar-Card "   >
         <ul>
             <li><img width={150} className="rounded rounded-3" src={props.image}/></li>
             <li> <h4>  {props.title}</h4> <span>{props.category}</span> </li>

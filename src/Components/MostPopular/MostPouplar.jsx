@@ -20,7 +20,7 @@ const MostPouplar = () => {
   return ( <> 
     <SectionWrapper>
         <SectionHeader> Most Popular </SectionHeader>
-        <div className="most-popular-items">
+        <div className="most-popular-items row ">
            {cards}
         </div>
     </SectionWrapper>

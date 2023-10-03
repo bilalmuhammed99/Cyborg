@@ -1,5 +1,6 @@
 .section-image{
     width: 100%;
+    height: 350px;
     border-radius: calc(var(--border-radius-primary)/4);
     margin-bottom: calc(var(--margin-primary)/2);
 }
